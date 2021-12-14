@@ -1,0 +1,14 @@
+# git
+.git/
+.gitignore
+
+# docker
+Dockerfile
+.dockerignore
+
+# nodejs
+node_modules/
+package-lock.json
+
+# eslint
+.eslintrc.yml

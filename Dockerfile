@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 # copy project
 COPY . .
 
-# upgrade npm
+# upgrade npm, if necessary
 RUN npm install -g npm@8.3.0
 # install requirements
 RUN npm install
